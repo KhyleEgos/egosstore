@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+}
+header{
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        flex-wrap: wrap;
+        box-shadow: 0 2px purple;
+}
+header h1{
+    text-align: center;
+    color: purple;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid purple;
+    width: 250px;
+    border-radius: 50px;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:5px;
+    margin: 10px;
+    border: 2px solid purple;
+    border-radius: 50px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.7s ease 0;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+.about{
+   background-color: purple;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 10px;
+   color: white;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.trek{
+    background-color: purple;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.trek a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.trek a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.specialized{
+    background-color: purple;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.specialized a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.specialized a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.giant{
+    background-color: purple;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.giant a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.giant a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(180, 180, 180);
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+
+}
